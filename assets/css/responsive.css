@@ -1,0 +1,155 @@
+/* .....480px.... */
+@media all and (min-width:480px) {
+    .drop-message {
+        min-width: 342px;
+    }
+
+    .logo {
+        width: 131px;
+    }
+}
+
+/* .....768px.... */
+@media all and (min-width:768px) {
+    .mob-menu {
+        display: none;
+    }
+
+    .header {
+        padding: 34px 0px 26px 0px;
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    }
+
+    .navigation {
+        background-color: transparent;
+        position: static;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 0px;
+        width: auto;
+    }
+
+    .navigation a {
+        margin: 0px;
+        color: #04355a;
+    }
+
+    .main-menu {
+        display: flex;
+        gap: 25px;
+    }
+
+    .header .container {
+        justify-content: space-between;
+    }
+
+    .header img {
+        margin-top: 14px;
+    }
+
+    .navigation .login-btn {
+        padding: 11px 24px;
+        background-color: #6fc5e7;
+    }
+
+    .org-address {
+        padding-right: 43px;
+    }
+
+    .contact-us {
+        padding: 80px 0px;
+    }
+
+    .contact-us .container {
+        flex-direction: row-reverse;
+    }
+
+    h2 {
+        font-family: 'my-titillium';
+        margin-bottom: 23px;
+    }
+
+
+    .drop-message {
+        min-width: 390px;
+    }
+
+    .form-block {
+        width: 50%;
+    }
+
+    .form-control {
+        font-family: 'my-titillium';
+    }
+
+    .address-content {
+        font-family: 'my-titillium';
+        padding-left: 31px;
+        width: 38%;
+    }
+
+    .form-fill {
+        width: 62%;
+    }
+
+    .logo {
+        width: 125px;
+    }
+
+    .submit-btn {
+        width: auto;
+    }
+
+    .footer {
+        padding: 40px 0px;
+    }
+
+    .footer .container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .copyrights {
+        width: 36%;
+    }
+
+    .policies {
+        text-align: end;
+    }
+
+    .copyrights p {
+        font-family: 'my-titillium';
+    }
+
+    .container {
+        max-width: 1000px;
+        padding: 0 27px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+/* .....950px.... */
+@media all and (min-width:950px) {
+    .navigation .btn {
+        font-size: 2.1rem;
+    }
+
+    .logo {
+        width: 175px;
+    }
+
+    .drop-message {
+        min-width: 580px;
+    }
+
+    .navigation {
+        gap: 40px;
+    }
+
+    .main-menu {
+        gap: 38px;
+    }
+}
